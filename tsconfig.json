@@ -1,0 +1,11 @@
+{
+  "exclude": ["node_modules", "node_modules/**/*"],
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "outDir": "./dist",
+    "target": "ES6",
+    "sourceMap": true
+  },
+  "include": ["src/**/*.ts"]
+}
