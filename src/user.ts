@@ -9,7 +9,7 @@ interface User {
   status?: UserStatus;
 }
 
-interface Address {
+interface UserAddress {
   street: string;
   city: string;
   state: string;
