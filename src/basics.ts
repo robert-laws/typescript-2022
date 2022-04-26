@@ -5,6 +5,9 @@ let birthDate: Date;
 let collection: string[];
 
 collection = ['items', '34'];
+myItems = string['ball', 'hat', 'cap'];
+let friend: string = "Bob";
+
 
 enum ContactStatus {
   Active = 'active',

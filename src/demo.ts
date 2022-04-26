@@ -23,3 +23,8 @@ function getValue<T, U extends keyof T>(source: T, propertyName: U) {
 
 const value = getValue(vendorContact, 'status');
 const newValue = getValue({ min: 2, max: 10 }, 'min');
+
+function sayHello(string: nameValue): string {
+  let greeting = `Hello ${nameValue}!`;
+  return greeting;
+}
